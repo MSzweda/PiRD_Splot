@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Niniejsza strona prezentuje graficzny sposób wyznaczania splotu dwóch funkcji f1(t) i f2(t) pokazanych na rysunku. Po przeanalizowaniu wzoru definiującego splot wykonaj kroki algorytmu przedstawione poniżej.</value>
+  </data>
+  <data name="tb2.Text" xml:space="preserve">
+    <value>Niniejsza strona prezentuje graficzny sposób wyznaczania splotu dwóch funkcji f1(t) i f2(t) pokazanych na rysunku. Po przeanalizowaniu wzoru definiującego splot wykonaj kroki algorytmu przedstawione poniżej.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Obserwując kształt splotu funkcji f1(t) x f2(t) w przypadku, gdy jedna z nich jest deltą Diraca widzimy, że jest on identyczny z drugą funkcją.
+Splot każdej funkcji z deltą Diraca jest zatem tą samą funkcją (o amplitudzie proporcjonalnej do natężenia delty Diraca).
+Wniosek ten można jednak uogólnić. Jeżeli jedna funkcja ma postać ciągu delt Diraca, to splot tej funkcji z inną funkcją będzie równy ciągówi tych innych funkcji pojawiających się w miejscach wystąpienia delt Diraca z amplitudą proporcjonalną do natężenia odpowiednich impulsów Diraca.
+</value>
+  </data>
+  <data name="tb3.Text" xml:space="preserve">
+    <value>Niniejsza strona prezentuje graficzny sposób wyznaczania splotu dwóch funkcji f1(t) i f2(t) pokazanych na rysunku. Po przeanalizowaniu wzoru definiującego splot wykonaj kroki algorytmu przedstawione poniżej.</value>
+  </data>
+  <data name="tb4.Text" xml:space="preserve">
+    <value>Niniejsza strona prezentuje graficzny sposób wyznaczania splotu dwóch funkcji f1(t) i f2(t) pokazanych na rysunku. Po przeanalizowaniu wzoru definiującego splot wykonaj kroki algorytmu przedstawione poniżej.</value>
+  </data>
+</root>
